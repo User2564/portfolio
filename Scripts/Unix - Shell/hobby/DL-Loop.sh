@@ -1,3 +1,7 @@
+# Iterates through a list of file(s) within a Git Repo and either dumps
+# or overwrites in-place.
+
+# E.g. script path/X path/Y
 #!/bin/bash
 branch='main'
 usr='bobDole'

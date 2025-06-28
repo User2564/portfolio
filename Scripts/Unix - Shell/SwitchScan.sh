@@ -1,3 +1,5 @@
+# Every five seconds, interate through switches with the supplied credentials,
+# then downloads the Mac Address Table and appends it to a file.
 #!/bin/bash
 switchIPs=(
 1
