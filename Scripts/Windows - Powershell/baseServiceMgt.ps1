@@ -52,6 +52,7 @@ switch ($userInput) {
 		Remove-Item "C:\ProgramData\Ubisoft\Ubisoft Game Launcher\patch" -Force -Recurse
 		Remove-Item C:\AMD\* -Force -Recurse
 		Remove-Item I:\TEMP\* -Force -Recurse
+		Remove-Item C:\Users\Public\Desktop\*.lnk -Force
 		dism /online /Cleanup-Image /StartComponentCleanup /NoRestart /ResetBase
     }
     default {
